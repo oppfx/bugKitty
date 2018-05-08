@@ -1,0 +1,126 @@
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 500px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+h1, h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #AAA;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: normal;
+  color: #AAA;
+  font-size: 24px;
+}
+
+.black {
+  color: black;
+}
+
+#balance {
+  color: black;
+}
+
+.hint {
+  color: #666;
+}
+
+.noExtension {
+  width: 100%;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 23px;
+}
+.noExtension h1{
+  color: #F00;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.hide{
+  display: none;
+}
+.kitty-desc{
+  color:#AAA;
+}
+#status{
+  float: right;
+  margin-top: 10px;
+}
+
+#my-account{
+  float: left;
+  border: 1px solid #ddd;
+  width: 260px;
+  height: 600px;
+  text-align: center;
+  overflow: auto;
+}
+
+#kitty-shop{
+  float: right;
+  /* width: 830px; */
+  height: 600px;
+  /* border: 1px solid #ddd; */
+ 
+}
+.clear{
+  clear: both;
+}
+.kitty{
+  float: left;
+  width: 220px;
+  margin: 0 10px;
+  padding: 10px;
+   border: 1px solid #ddd;
+   color: #666;
+}
+ .kitty div{
+  margin: 10px 0;
+}
+ .kitty img{
+ background-color: #ddd;
+  width: 220px;
+  height: 180px;
+}
+.k-gene{
+  width: 200px;
+  word-break:break-all;
+}
+
+.kitty-c{
+  position: absolute;
+  padding-top: 30px;
+  background-color: #FFF;
+  border: 1px solid #000;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+  width: 600px;
+  height: 100px;
+}

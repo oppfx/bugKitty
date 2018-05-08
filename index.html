@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Bug kitty </title>
+  <link rel="stylesheet" href="./stylesheets/app.css">
+  <script src="./javascripts/jquery-3.3.1.min.js"></script>
+  <script src="./javascripts/nebPay.js"></script>
+  <script src="./javascripts/app.js"></script>
+</head>
+<body>
+
+
+<h1>奇异猫 Bug kitty</h1> 
+<span id="status"></span>
+<div class="clear"></div>
+<div class="kitty-desc">基于星云链上的数字宠物</div>
+<hr>
+<div class="noExtension hide" id="noExtension"><h1>FBI　WARNING </h1><br>
+   Please use Chrome and install <a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>  to use BugKitty!<br><br>
+  <div>注意：请使用谷歌浏览器、并且安装钱包插件<a target="_blank" href="https://github.com/ChengOrangeJu/WebExtensionWallet">WebExtensionWallet</a>来玩 奇异猫！</div>
+</div>
+<div id="kitty-page">
+<div id="my-account">
+<h3>我的奇异猫</h3>
+<div id="builder" class="hide">
+  <button class="btn" id="btn-cp" onclick="$('.kitty-c').removeClass('hide');">创建猫</button> <br>
+  <button class="btn" onclick="App.initKittyPage()">读取猫</button> <br>
+<button class="btn" id="btn-gb" onclick="App.getBalance()">读取余额</button> <br>
+<button class="btn"  onclick="App.withdrawBalance()">提现余额</button> 
+</div>
+<div id="my-kitty">还没有猫</div>
+</div>
+
+<div id="kitty-shop">
+猫在载入中....
+
+</div>
+
+<div class="clear"></div>
+<div class="kitty-c hide">
+  gene:<input type="text" id="kc-gene">
+    <button  onClick="$('.kitty-c').addClass('hide');">取消</button>　　<button  onClick="App.kittyCreate();">确认</button>
+ 
+</div>
+</div>
+</body>
+</html>
